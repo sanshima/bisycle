@@ -1,0 +1,146 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  height: 50px;
+  margin: 10px 0px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin-left: 20px;
+}
+
+.mainvisual img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 600px;
+  width: 100%;
+  max-width: 2500px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 600px) {
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+@media (max-width: 600px) {
+  .about img {
+    margin: auto;
+  }
+}
+
+.about-discription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-discription p {
+  text-align: left;
+}
+
+.wrapper {
+  max-width: 960px;
+  padding: 0% 4%;
+  margin: 0 auto;
+}
+
+.wrapper .title-parent {
+  text-align: center;
+}
+
+.wrapper .title-parent h2 {
+  border-bottom: 1px solid #383E45;
+  display: inline-block;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.wrapper h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.bicycle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .bicycle {
+    display: block;
+  }
+}
+
+.bicycle img {
+  max-width: 100%;
+  padding-right: 10px;
+}
+
+.bicycle h3 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bicycle p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  padding: 30px 0px;
+  color: pink;
+}
+/*# sourceMappingURL=style.css.map */
